@@ -44,9 +44,11 @@ span {
     margin-right: 10px;
     border: none;
 }
-i{
+
+i {
     margin-right: 7px;
 }
+
 h3 {
     color: #474747;
     font-weight: 600;
@@ -55,20 +57,22 @@ h3 {
 h1 {
     font-size: 85px;
 }
-p{
+
+p {
     color: #757575;
     font-size: 18px;
     line-height: 30px;
-    width:585px;
+    width: 585px;
     margin-bottom: 20px;
 }
+
 /* Header-area-start */
-#header-area{
+#header-area {
     background-color: #FFF8F3;
     background-image: url(./images/developer.png);
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: left;
-    margin-left: 40px ;
+    margin-left: 40px;
 }
 
 .navbar {
@@ -89,11 +93,54 @@ p{
     font-size: 20px;
     margin-right: 25px;
 }
-.hero-area{
+
+.hero-area {
     background-image: url(./images/header_bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-.hero-area .hero-img{
+
+.hero-area .hero-img {
     margin-bottom: 80px;
+}
+
+/* Header-area-end */
+
+/* About-area-start */
+#about-me {
+    margin: 130px 0;
+
+}
+
+#about-me .about-content {
+    padding: 130px 156px;
+    background-color: #FFF8F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 30px;
+  box-shadow: 20px 18px 14px #888888;
+}
+
+#about-me .about-content p {
+    width: 867px;
+    line-height: 30px;
+    text-align: center;
+}
+table tr th{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 500;
+}
+table tr td{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 900;
+}
+table tr th,
+table tr td {
+    margin: 20px;
+    padding: 10px;
 }
