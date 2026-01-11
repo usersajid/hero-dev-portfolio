@@ -121,7 +121,7 @@ p {
     align-items: center;
     gap: 20px;
     border-radius: 30px;
-  box-shadow: 20px 18px 14px #888888;
+    box-shadow: 20px 18px 14px #888888;
 }
 
 #about-me .about-content p {
@@ -129,18 +129,61 @@ p {
     line-height: 30px;
     text-align: center;
 }
-table tr th{
+
+table tr th {
     color: #757575;
     font-size: 20px;
     font-weight: 500;
 }
-table tr td{
+
+table tr td {
     color: #757575;
     font-size: 20px;
     font-weight: 900;
 }
+
 table tr th,
 table tr td {
     margin: 20px;
     padding: 10px;
+}
+
+/* About-area-end */
+
+/* what-i-do-area-start */
+#what-i-do {
+    padding: 130px 0;
+}
+
+#what-i-do .what-i-do-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#what-i-do .what-i-do-content p {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#what-i-do .skill-cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 20px 0;
+}
+
+#what-i-do .skill-cards .skill-card {
+    padding: 30px;
+    box-shadow: 4px 14px 25px   #888888;
+    border-radius: 25px;
+}
+#what-i-do .skill-cards .skill-card h4{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+#what-i-do .skill-cards .skill-card p {
+    width: 201px;
 }
