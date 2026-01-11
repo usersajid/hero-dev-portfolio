@@ -260,3 +260,19 @@ table tr td {
     margin-top: 50px;
 }
 /* Resume Section end */
+
+/* footer section start */
+#footer-area{
+    padding: 130px 0;
+    background-color: #FFF8F3;
+}
+#footer-area .wrapper{
+    gap: 20px;
+}
+form input{
+    margin: 20px 0;
+    padding: 15px 5px;
+    display: block;
+    width: 100%;
+}
+
